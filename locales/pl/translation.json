@@ -1,11 +1,18 @@
 {
   "docs": "Dokumentacja",
   "support": "Serwer wsparcia",
-  "addbot": "Dodaj mnie",
+  "invitebot": "Dodaj mnie",
+  "addbot": "Dodaj do Discorda",
   "h1first": "Twoja nowa",
   "h1second": "przyjaciółka",
   "h1third": "do",
   "h1fourth": "ulepszenia",
   "h1fifth": "twojego serwera",
-  "botdesc": "twoja wierna i niezawodna asystentka do zarządzania serwerem. Gotowa do wsparcia i sprawienia, że czas spędzony na serwerze będzie bardziej atmosferyczny i angażujący w komunikację!"
+  "botdesc": "twoja wierna i niezawodna asystentka do zarządzania serwerem. Gotowa do wsparcia i sprawienia, że czas spędzony na serwerze będzie bardziej atmosferyczny i angażujący w komunikację!",
+  "local": "Lokalizacja języka",
+  "langs": "Angielski, Polski, Ukraiński, Rosyjski",
+  "owner": "Właściciel bota | Deweloper",
+  "github": "GitHub",
+  "privacy": "Polityka prywatności",
+  "tos": "Warunki świadczenia usług"
 }
