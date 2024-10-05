@@ -11,7 +11,7 @@ const Main = () => {
                     <h1 className={s.title}>{t("h1first")} <span
                         className={s.gradient_text}>{t("h1second")}</span><br/>{t("h1third")} <span
                         className={s.gradient_text}>{t("h1fourth")}</span> {t("h1fifth")}</h1>
-                        <a className={s.button} href="https://discord.com/oauth2/authorize?client_id=1187466797885182141">Add to Discord</a>
+                        <a className={s.button} href="https://discord.com/oauth2/authorize?client_id=1187466797885182141">{t("addbot")}</a>
                     </section>
                     <img src="./anima.png" alt="Anima"/>
                 </section>

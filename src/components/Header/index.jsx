@@ -3,6 +3,8 @@ import {useEffect, useState} from "react";
 import { useTranslation } from 'react-i18next';
 
 function Header() {
+
+
     const serverBotLink = `https://discord.gg/d8kCF4c3t5`;
     const addBotLink = `https://discord.com/oauth2/authorize?client_id=1187466797885182141`;
 
@@ -31,17 +33,19 @@ function Header() {
         }
     ]
 
+    const savedLang = localStorage.getItem(`lang`) || `en`;
+    const savedLangImg = langList.find(item => item.code === savedLang)?.img || langList[0].img;
+
+
     const [display, setDisplay] = useState(false);
-    const [lang, setLang] = useState(`en`);
-    const [imgLang, setImgLang] = useState(`https://upload.wikimedia.org/wikipedia/commons/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg`);
+    const [lang, setLang] = useState(savedLang);
+    const [imgLang, setImgLang] = useState(savedLangImg);
     useEffect(() => {
         i18n.changeLanguage(lang);
     }, [lang, i18n]);
 
     function showLocalList() {
-        if (display) setDisplay(false);
-        else setDisplay(true);
-
+        setDisplay(!display);
         i18n.changeLanguage(lang);
     }
 
@@ -50,6 +54,8 @@ function Header() {
         setLang(data.code);
         setImgLang(data.img);
         setDisplay(false);
+
+        localStorage.setItem('lang', data.code);
     }
 
     return (
@@ -68,7 +74,7 @@ function Header() {
                                 ))}
                             </ul>
                         </li>
-                        <li className={s.layoutAdd}><a className={s.addButton} href={addBotLink} target="_blank">{t("addbot")}</a></li>
+                        <li className={s.layoutAdd}><a className={s.addButton} href={addBotLink} target="_blank">{t("invitebot")}</a></li>
                         <li><a href={addBotLink} target="_blank"><img className={s.animaPicture} src="./anima.gif" alt="profile picture"/></a></li>
                     </ul>
                 </nav>

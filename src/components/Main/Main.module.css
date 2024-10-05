@@ -52,11 +52,23 @@
     text-decoration: none;
     background-image: linear-gradient(150deg, #ffce74, #ff7fa6);
     transition: 0.2s ease;
+    animation: jumping 2.5s infinite linear;
+}
+
+@keyframes jumping {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-6px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
 
 .button:hover {
     box-shadow: -2px 2px 20px #a16a00;
-    transform: translateY(-2px);
 }
 
 .header_section img {

@@ -1,7 +1,8 @@
 {
   "docs": "Documentation",
   "support": "Support server",
-  "addbot": "Invite me",
+  "invitebot": "Invite me",
+  "addbot": "Add to Discord",
   "h1first": "Your new",
   "h1second": "girl buddy",
   "h1third": "to",
@@ -9,5 +10,9 @@
   "h1fifth": "your server",
   "botdesc": "your faithful and reliable assistant for managing the server. Ready to support and make your time on the server more atmospheric and engaging for communication!",
   "local": "Language localization",
-  "langs": "English, Polish, Ukrainian, Russian"
+  "langs": "English, Polish, Ukrainian, Russian",
+  "owner": "Bot Owner | Developer",
+  "github": "GitHub",
+  "privacy": "Privacy Policy",
+  "tos": "Terms of Service"
 }
