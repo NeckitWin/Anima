@@ -1,0 +1,36 @@
+.footer {
+    margin-top: 35px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.footer > section {
+    padding: 50px 0;
+    margin: auto;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer ul, .footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .footer ul {
+        gap: 20px;
+    }
+
+    .footer > section {
+        flex-direction: column;
+    }
+}

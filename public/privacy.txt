@@ -1,0 +1,29 @@
+Privacy Policy for Anima
+Effective Date: 05.10.2024
+
+Introduction
+Anima is designed to provide users with  server management, fun, and useful features on Discord. We respect your privacy and are committed to protecting your personal data.
+
+Information Collection
+Our bot may collect the following information:
+
+Personal Data: We do not collect any personal data such as names, email addresses, or phone numbers.
+Server Data: The bot may receive information about your Discord server, including server IDs, roles, and channels, to perform its functions.
+Messages and Commands: The bot may process messages and commands sent by users to provide responses or perform actions.
+Use of Information
+The information collected is used solely for the following purposes:
+
+Processing commands and providing services.
+Improving the bot's functionality.
+Ensuring security and preventing abuse.
+Disclosure of Information
+We will not share, sell, or otherwise disclose your information to third parties, except as required by law or to protect our rights and safety.
+
+Data Security
+We take reasonable measures to protect the information collected by our bot. However, no data transmission over the internet is completely secure, and we cannot guarantee the absolute security of your data.
+
+Changes to the Privacy Policy
+We may update this privacy policy from time to time. We will notify you of any changes by posting the new version on our website [or in our Discord channel]. We recommend periodically reviewing this page for updates.
+
+Contact Information
+If you have any questions or comments regarding this privacy policy, please contact us at https://discord.gg/d8kCF4c3t5

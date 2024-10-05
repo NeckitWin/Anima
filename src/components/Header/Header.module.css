@@ -1,0 +1,122 @@
+.menu {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    box-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
+}
+
+.menu nav {
+    margin: auto;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 84px;
+    flex-wrap: wrap;
+}
+
+.menu > nav > ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.menu a {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px;
+    position: relative;
+}
+
+.logo {
+    height: 64px;
+}
+
+.addButton {
+    background-color: #E16C93;
+    box-shadow: 0 0 10px #fff;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+.addButton:hover {
+    box-shadow: 0 0 12px #fff;
+}
+.layoutAdd {
+    transition: 0.3s ease-in-out;
+}
+.layoutAdd:hover {
+    transform: translateY(-2px);
+}
+
+.animaPicture {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.local {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.local:hover {
+    transform: scale(1.1);
+}
+
+.localList {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.95);
+    position: absolute;
+    top: 80px;
+    padding: 14px;
+    border-radius: 10px;
+    color: #fff;
+    gap: 20px;
+}
+
+.localListHidden {
+    display: none !important;
+}
+
+.localList li {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+
+}
+
+.localList img {
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        height: 50px;
+    }
+
+    .menu ul:last-child {
+        margin-left: auto;
+    }
+
+    .menu nav {
+        height: 110px;
+    }
+
+    .menu > nav > ul {
+        gap: 10px;
+    }
+
+    .menu a {
+        font-size: 16px;
+    }
+}
