@@ -16,11 +16,11 @@ const Main = () => {
                     <img src="./anima.png" alt="Anima"/>
                 </section>
                 <section className={`${s.section} ${s.section_description}`}>
-                    <img className={s.gear} src="./gear.png" alt=""/>
+                    <img className={s.gear} src="./gear.png" alt="gear"/>
                     <section>
                         <p className={`${s.description}`}><b>Anima</b> - {t("botdesc")}</p>
                         <br/>
-                        <p><span className={s.gradient_text}>Language localization:</span> English, Polish, Ukrainian, Russian</p>
+                        <p><span className={s.gradient_text}>{t("local")}:</span> {t("langs")}</p>
                     </section>
                 </section>
             </div>

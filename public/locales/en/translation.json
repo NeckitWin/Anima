@@ -7,5 +7,7 @@
   "h1third": "to",
   "h1fourth": "improve",
   "h1fifth": "your server",
-  "botdesc": "your faithful and reliable assistant for managing the server. Ready to support and make your time on the server more atmospheric and engaging for communication!"
+  "botdesc": "your faithful and reliable assistant for managing the server. Ready to support and make your time on the server more atmospheric and engaging for communication!",
+  "local": "Language localization",
+  "langs": "English, Polish, Ukrainian, Russian"
 }
